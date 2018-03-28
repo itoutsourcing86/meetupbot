@@ -59,4 +59,4 @@ class RegisterSpider(Spider):
 if __name__ == "__main__":
     # logging.basicConfig(level=logging.DEBUG)
     bot = RegisterSpider(thread_number=2, priority_mode="const")
-bot.run()
+    bot.run()
